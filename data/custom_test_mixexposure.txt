@@ -1,0 +1,1 @@
+/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/test/input/a0088-_DGW6376_0.JPG|/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/test/target/a0088-_DGW6376.jpg

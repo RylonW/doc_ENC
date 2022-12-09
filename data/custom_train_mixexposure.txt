@@ -1,0 +1,2 @@
+/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/train/input/a0024-_DSC8932_0.JPG|/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/train/target/a0024-_DSC8932.jpg
+/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/train/input/a0075-jn_20080814_New_York_City_042_0.JPG|/home/eescut/Desktop/ExposureNorm-Compensation/Exposure/train/target/a0075-jn_20080814_New_York_City_042.jpg
