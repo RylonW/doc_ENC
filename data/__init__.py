@@ -42,6 +42,18 @@ def create_dataset(opt,dataset_opt):
                     # validation 直接用原图太大会爆,改用patch
                     patch_size=256, black_edges_crop=False, hflip=False, rot=False)
                     # patch_size=None, black_edges_crop=False, hflip=False, rot=False)
+    ###############
+    # 20221205
+    elif mode == 'UEN_test':
+        from data.SIEN_dataset import DatasetFromFolder as D
+        print('########### val loader with pacth:', dataset_opt['IN_size'])
+        dataset = D(upscale_factor=opt['scale'], data_augmentation=False,
+                    group_file=dataset_opt['filelist'],
+
+                    # validation 直接用原图太大会爆,改用patch
+                    patch_size=None
+                    , black_edges_crop=False, hflip=False, rot=False)
+    ###############
 
     else:
         raise NotImplementedError('Dataset [{:s}] is not recognized.'.format(mode))
